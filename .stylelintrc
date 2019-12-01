@@ -1,0 +1,18 @@
+{
+  "extends": "stylelint-config-recommended-scss",
+  "rules": {
+    "block-no-empty": true,
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "color-no-invalid-hex": true,
+    "declaration-colon-space-after": "always",
+    "max-empty-lines": 2,
+    "no-descending-specificity": null,
+    "selector-type-no-unknown": [true, {
+      "ignoreTypes": ["_"]
+    }],
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["function", "if", "each", "include", "mixin", "else", "error"]
+    }]
+  }
+}

@@ -1,0 +1,17 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### Logs ###
+yarn-error.log
+yarn.lock
+
+### Project Structure ###
+arquivos
+dist
+node_modules
+
+### VSCode IDE ###
+.vscode

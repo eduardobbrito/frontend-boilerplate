@@ -1,0 +1,19 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "env": {
+    "browser": true
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-use-before-define": "off",
+    "linebreak-style": "off",
+    "import/no-cycle": "off",
+    "prettier/prettier": "error",
+    "prefer-destructuring": ["error", { "object": true, "array": false }]
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  }
+}

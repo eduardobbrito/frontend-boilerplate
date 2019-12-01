@@ -1,0 +1,55 @@
+// Base colors
+$white: #fff;
+$lighter-grey: #f7f7f8;
+$light-grey: #e6e7e8;
+$lightish-grey: #ebebeb;
+$medium-grey: #bbbdbf;
+$grey: #a6a8ab;
+$dark-grey: #6d6e70;
+$darker-grey: #404041;
+$black: #000;
+
+// Breakpoints
+// taken from bulma documentation - https://bulma.io/documentation/overview/responsiveness/
+// mobile     : from 768px below
+// tablet     : from 769px to 1023px
+// desktop    : from 1024px to 1215px
+// widescreen : from 1216px to 1407px
+// fullhd     : from 1408px up
+
+$tablet: 768px; // fix bulma tablet breakpoint starting at 769
+
+$breakpoints: (
+  'midterm-mobile': (
+    max-width: 470px,
+  ),
+  'mobile': (
+    max-width: 768px,
+  ),
+  'tablet': (
+    min-width: 768px,
+  ),
+  'desktop': (
+    min-width: 1024px,
+  ),
+  'widescreen': (
+    min-width: 1216px,
+  ),
+  'fullhd': (
+    min-width: 1408px,
+  ),
+  'tablet-only': (
+    min-width: 769px,
+  )
+  and
+  (
+    max-width: 1023px,
+  ),
+  'desktop-only': (
+    min-width: 1024px,
+  )
+  and
+  (
+    max-width: 1215px,
+  ),
+);
